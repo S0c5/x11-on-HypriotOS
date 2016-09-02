@@ -16,7 +16,7 @@ these details are based on blog post [Jessie on Raspberry PI 2 with Docker and C
 ## 1. Installing X11 and LightDM on HypriotOS
 Running the installer script need sudo privileges for some elevated commands.
 ```
-curl -sSL https://github.com/hypriot/x11-on-HypriotOS/raw/master/install-x11-basics.sh | bash
+curl -sSL https://github.com/s0c5/x11-on-HypriotOS/raw/master/install-x11-basics.sh | bash
 ```
 Depending on your internet connection this installation procedure takes approx. 10 minutes only.
 
@@ -39,7 +39,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 ## 2. Installing Chromium web browser on HypriotOS/X11
 Running the installer script need sudo privileges for some elevated commands.
 ```
-curl -sSL https://github.com/hypriot/x11-on-HypriotOS/raw/master/install-chromium-browser.sh | bash
+curl -sSL https://github.com/s0c5/x11-on-HypriotOS/raw/master/install-chromium-browser.sh | bash
 ```
 This takes approx. 5 minutes only.
 
